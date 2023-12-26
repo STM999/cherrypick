@@ -16,5 +16,13 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Call call = new Call();
+            var result = call.Add(10d, 20d);
+        }
+
+
     }
 }
