@@ -21,6 +21,7 @@ namespace WindowsFormsApp1
         {
             Call call = new Call();
             var result = call.Add(10d, 20d);
+            result = call.Mod(10d, 20d);
         }
 
 
